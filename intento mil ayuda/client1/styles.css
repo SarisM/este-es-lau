@@ -1,0 +1,106 @@
+body {
+    font-family: "Arial", sans-serif;
+   
+  }
+
+
+/*inicio */
+
+#inicio {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/client1/assets/inicio.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0); /* o el color de texto que necesites */
+  text-align: center;
+}
+
+#titulo-inicio {
+  font-size: 2rem; /* Ajusta el tamaño del texto según sea necesario */
+  margin-top: 27vh; /* Espacio desde la parte superior de la pantalla */
+}
+
+/*medidas */
+#measurements-section {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/client1/assets/Medidas.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0); /* o el color de texto que necesites */
+    text-align: center;
+  }
+
+
+  #titulo-medidas {
+    font-size: 2rem; /* Ajusta el tamaño del texto según sea necesario */
+    margin-top: 27vh; /* Espacio desde la parte superior de la pantalla */
+  }
+
+
+/*piel */
+#skin-section {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/client1/assets/Piel.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0); /* o el color de texto que necesites */
+    text-align: center;
+  }
+
+
+  #titulo-piel {
+    font-size: 2rem; /* Ajusta el tamaño del texto según sea necesario */
+    margin-top: 27vh; /* Espacio desde la parte superior de la pantalla */
+  }
+
+/*cabello */
+#hair-section {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/client1/assets/Cabello.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0); /* o el color de texto que necesites */
+    text-align: center;
+  }
+
+
+  #titulo-cabello {
+    font-size: 2rem; /* Ajusta el tamaño del texto según sea necesario */
+    margin-top: 27vh; /* Espacio desde la parte superior de la pantalla */
+  }
+
+/*ojos */
+#eyes-section {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/client1/assets/Ojos.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0); /* o el color de texto que necesites */
+    text-align: center;
+  }
+
+
+  #titulo-ojos {
+    font-size: 2rem; /* Ajusta el tamaño del texto según sea necesario */
+    margin-top: 27vh; /* Espacio desde la parte superior de la pantalla */
+  }
