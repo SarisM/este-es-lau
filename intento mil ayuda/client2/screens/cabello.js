@@ -4,12 +4,12 @@ export default function renderCabello() {
   const app = document.getElementById("app");
   app.innerHTML = `
     <section id="cabello-section">
-      <h2>¡Solo una más!</h2>
+      <h2 id="titulo-cabello">¡Solo una más!</h2>
       <form id="hairColorForm">
-        <label><input type="radio" name="hairColor" value="Negro" required /> Negro</label><br>
-        <label><input type="radio" name="hairColor" value="Castaño" /> Castaño</label><br>
-        <label><input type="radio" name="hairColor" value="Rubio" /> Rubio</label><br>
-        <label><input type="radio" name="hairColor" value="Pelirrojo" /> Pelirrojo</label><br>
+        <label><input type="radio" id="input-negro" name="hairColor" value="Negro" required /> Negro</label><br>
+        <label><input type="radio" id="input-castano"  name="hairColor" value="Castaño" /> Castaño</label><br>
+        <label><input type="radio" id="input-rubio" name="hairColor" value="Rubio" /> Rubio</label><br>
+        <label><input type="radio" id="input-rojo"  name="hairColor" value="Pelirrojo" /> Pelirrojo</label><br>
         <button type="submit" id="hair-btn">Continuar</button>
       </form>
     </section>

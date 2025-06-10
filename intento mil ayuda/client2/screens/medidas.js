@@ -4,8 +4,8 @@ export default function renderMedidas() {
   const app = document.getElementById("app");
   app.innerHTML = `
     <section id="medidas-section">
-      <h1>Empecemos</h1>
-      <h2>La moda se adapta a ti</h2>
+      <h1 id="titulo-medidas" >Empecemos</h1>
+      <h2 id="subtitulo-medidas" >La moda se adapta a ti</h2>
       <form id="bodyForm">
         <input type="number" id="shoulders" placeholder="Hombros" required />
         <input type="number" id="waist" placeholder="Cintura" required />

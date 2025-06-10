@@ -7,11 +7,11 @@ export default function renderPiel() {
       <h1>Vas muy bien</h1>
       <h2>Tu piel no necesita permiso para brillar</h2>
       <form id="skinToneForm">
-        <label><input type="radio" name="skinTone" value="Claro" required /> Muy claro</label><br>
-        <label><input type="radio" name="skinTone" value="Oliva" /> Claro</label><br>
-        <label><input type="radio" name="skinTone" value="Miel" /> Medio</label><br>
-        <label><input type="radio" name="skinTone" value="Moreno" /> Oscuro</label><br>
-        <label><input type="radio" name="skinTone" value="Moreno oscuro" /> Muy oscuro</label><br>
+        <label id="label-piel-claro"><input type="radio" name="skinTone" value="Claro" required /> Muy claro</label><br>
+        <label id="label-piel-oliva"><input type="radio" name="skinTone" value="Oliva" /> Claro</label><br>
+        <label id="label-piel-miel"><input type="radio" name="skinTone" value="Miel" /> Medio</label><br>
+        <label id="label-piel-moreno"><input type="radio" name="skinTone" value="Moreno" /> Oscuro</label><br>
+        <label id="label-piel-moreno-oscuro"><input type="radio" name="skinTone" value="Moreno oscuro" /> Muy oscuro</label><br>
         <button type="submit" id="skin-btn">Continuar</button>
       </form>
     </section>
